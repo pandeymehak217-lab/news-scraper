@@ -1,5 +1,4 @@
-# news-scraper
-A Python project that scrapes news articles from RSS feeds using newspaper3k and feedparser
+
 # 📰 News Scraper with Python
 
 [![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white)](https://www.python.org/)
