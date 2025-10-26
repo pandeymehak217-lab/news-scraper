@@ -22,7 +22,7 @@ def scrape_news_from_feed(feed_url):
                 'url': entry.link
             })
         except Exception as e:
-            print(f"⚠️ Error processing {entry.link}: {e}")
+            print(f"Error processing {entry.link}: {e}")
             continue
 
     return articles
@@ -37,10 +37,10 @@ def save_to_csv(articles, filename='news_articles.csv'):
         for article in articles:
             writer.writerow(article)
 
-    print(f"\n✅ Saved {len(articles)} articles to '{filename}'")
+    print(f"\n Saved {len(articles)} articles to '{filename}'")
 
 
-# MAIN PROGRAM
+
 if __name__ == "__main__":
     feed_url = 'https://feeds.bbci.co.uk/news/rss.xml'
     print("📰 Starting News Scraper...")
