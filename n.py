@@ -43,6 +43,6 @@ def save_to_csv(articles, filename='news_articles.csv'):
 
 if __name__ == "__main__":
     feed_url = 'https://feeds.bbci.co.uk/news/rss.xml'
-    print("📰 Starting News Scraper...")
+    print(" Starting News Scraper...")
     articles = scrape_news_from_feed(feed_url)
     save_to_csv(articles)
