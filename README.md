@@ -43,9 +43,9 @@ Extract article details (title, author, publish date, content)
 Save the data into news_articles.csv
 📂 Repository Structure
 news-scraper/
-├─ n.py              # Main script to scrape and save news articles
-├─ news_articles.csv # Output file containing scraped articles
-├─ README.md         # Project documentation
+├─ n.py              
+├─ news_articles.csv 
+├─ README.md         
 🔗 About
 This project showcases the use of Python for web scraping and data extraction.
 By leveraging libraries like feedparser and newspaper3k, it automates the process of gathering and storing news articles from various RSS feeds.
